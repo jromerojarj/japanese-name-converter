@@ -29,7 +29,7 @@ export default function Home() {
       </h1>
 
       <div className="flex flex-col items-center justify-center">
-        <input ref={ref} onChange={(e)=>setName(e.target.value)} value={name} className="border-2 border-gray-300 rounded-md p-2 text-black" />
+        <input ref={ref} placeholder="Type your name" onChange={(e)=>setName(e.target.value)} value={name} className="border-2 border-gray-300 rounded-md p-2 text-black" />
         
         <div className="text-2xl font-bold capitalize py-4">{japanese}</div>
       </div>
